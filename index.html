@@ -1226,7 +1226,7 @@ function profile(){
   const tryNow=S.fertility==='trying-now';
   const futFert=['future','1-2-years','3-5-years','unsure'].includes(S.fertility);
   const noFert=['no-goal','completed'].includes(S.fertility);
-  const endo=S.usResult==='endometrioma'||S.diagnosis.includes('us-confirmed');
+  const endo = S.usResult==='endometrioma';
   const die=S.usResult==='die';
   const adeno=S.diagnosis.includes('adenomyosis');
   const confirmed=S.diagnosis.includes('us-confirmed')||S.diagnosis.includes('lap-confirmed');
